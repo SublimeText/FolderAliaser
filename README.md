@@ -1,30 +1,23 @@
 # Folder Aliaser
 
-Alias your project folders quickly and easily! Right-click on any top-level folder in the Side Bar and choose "Alias
-Folder...". It's helpful to resolve name collisions or to provide friendlier names for folders.
+This [Sublime Text](www.sublimetext.com) package provides a front-end to easily change display name of top-level folders in side bar.
 
-This plugin works by **modifying your current `sublime-project` file**. Specifically, it edits the `name` property of
-items in the `folders` array. If this is an issue, then the current version of this plugin won't work for you, but
-please let me know so I can look at alternative solutions!
+It works by **modifying current `sublime-project` file**. Specifically, it edits the `name` property of items in `folders` array.
 
-There exists a similar project (FolderAlias, see Thanks below) that is no longer maintained. This project exists to be
-simpler (from both user and code perspectives) and maintained.
+## Installation
 
-# Installation
-Install via Package Control ([installation instructions](https://packagecontrol.io/installation) and [usage guide](https://packagecontrol.io/docs/usage)).
+### Package Control
 
-Open the Goto Anything palette, run Package Control: Install Package, and select Folder Aliaser.
+The easiest way to install is using [Package Control](https://packagecontrol.io). It's listed as `Folder Aliaser`.
 
-# Usage
-Right-click on any top-level folder in the Side Bar, choose "Alias Folder", and type the alias you want. Simple!
+1. Open `Command Palette` using <kbd>ctrl+shift+P</kbd> or menu item `Tools → Command Palette...`
+2. Choose `Package Control: Install Package`
+3. Find `Folder Aliaser` and hit <kbd>Enter</kbd>
 
-# Contributions, issues, questions, etc.
-Please feature branch from `master` and submit a pull request. And please submit any issues you find!
+## Usage
 
-This is my first Sublime Text plugin so there are a ton of comments; should be pretty easy to follow.
+### Side Bar Context Menu
 
-# Thanks
-This project was inspired by [rablador's FolderAlias](https://bitbucket.org/rablador/folderalias) plugin and a desire to provide an easier way to alias folders without having to manually edit a JSON file.
-
-# License
-The code is free to use.
+1. Right-click on top-level folder in side bar
+2. Click on `Alias Folder...` menu item
+3. Type the alias you want
