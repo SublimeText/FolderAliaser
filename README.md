@@ -16,6 +16,13 @@ The easiest way to install is using [Package Control](https://packagecontrol.io)
 
 ## Usage
 
+### Command Palette
+
+1. Open `Command Palette` using <kbd>ctrl+shift+P</kbd> or menu item `Tools → Command Palette...`
+2. Choose `Project: Alias Folder...` and hit <kbd>Enter</kbd>
+3. Choose folder to change display name for and hit <kbd>Enter</kbd>
+4. Enter new display name and hit <kbd>Enter</kbd>
+
 ### Side Bar Context Menu
 
 1. Right-click on top-level folder in side bar
